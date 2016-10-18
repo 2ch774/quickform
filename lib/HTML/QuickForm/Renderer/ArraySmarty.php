@@ -332,7 +332,7 @@ class HTML_QuickForm_Renderer_ArraySmarty extends HTML_QuickForm_Renderer_Array
     */
     protected function _tplFetch($tplSource)
     {
-        return ($this->tpl->fetch("eval:$tplSource"));
+        return $this->_tpl->fetch("eval:$tplSource");
     }
 
    /**
