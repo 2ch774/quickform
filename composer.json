@@ -1,5 +1,5 @@
 {
-    "name": "openpsa/quickform",
+    "name": "agent0074/quickform",
     "type": "library",
     "description": "PHP 5.4 compatible fork of HTML_QuickForm",
     "keywords": ["form", "quickform"],
@@ -9,6 +9,10 @@
             "name": "Andreas Flack",
             "email": "flack@contentcontrol-berlin.de",
             "homepage": "http://www.contentcontrol-berlin.de/"
+        },
+        {
+            "name": "Frank Jacobi",
+            "email": "agent0074@gmail.com"
         }
     ],
     "require": {
