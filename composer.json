@@ -6,11 +6,6 @@
     "license": "PHP License 3.01",
     "authors": [
         {
-            "name": "Andreas Flack",
-            "email": "flack@contentcontrol-berlin.de",
-            "homepage": "http://www.contentcontrol-berlin.de/"
-        },
-        {
             "name": "Frank Jacobi",
             "email": "agent0074@gmail.com"
         }
