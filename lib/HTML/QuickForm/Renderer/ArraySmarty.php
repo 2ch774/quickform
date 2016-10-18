@@ -332,10 +332,7 @@ class HTML_QuickForm_Renderer_ArraySmarty extends HTML_QuickForm_Renderer_Array
     */
     protected function _tplFetch($tplSource)
     {
-        if (!function_exists('smarty_function_eval')) {
-            require SMARTY_DIR . '/plugins/function.eval.php';
-        }
-        return smarty_function_eval(array('var' => $tplSource), $this->_tpl);
+        return ($this->tpl->fetch("eval:$tplSource"));
     }
 
    /**
