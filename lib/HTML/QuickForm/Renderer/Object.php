@@ -224,6 +224,8 @@ class HTML_QuickForm_Renderer_Object extends HTML_QuickForm_Renderer
         }
     }
 
+    public function finishForm(&$form) {}
+    public function renderHtml(&$data) {} 
 }
 
 /**
